@@ -7,30 +7,32 @@ public class DayOfWeek {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        
+        System.out.println("Day of week:");
         int number = input.nextInt();
         
         if (number == 1) { 
-        System.out.println("Day of week:Monday");
+        System.out.println("Monday");
         } else if (number == 2) {
-          System.out.println("Day of week:Tuesday");
+          System.out.println("Tuesday");
         }
         else if (number == 3) {
-          System.out.println("Day of week:Wednesday");
+          System.out.println("Wednesday");
         }
         else if (number == 4) {
-          System.out.println("Day of week:Thursday");
+          System.out.println("Thursday");
         }
         else if (number == 5) {
-          System.out.println("Day of week:Friday");
+          System.out.println("Friday");
         }
         else if (number == 6) {
-          System.out.println("Day of week:Saturday");
+
+          System.out.println("Saturday");
+
         }
         else if (number == 7) {
-          System.out.println("Day of week:Sunday");
+          System.out.println("Sunday");
         } else {
-          System.out.println("Day of week:Invalid day");
+          System.out.println("Invalid day");
         }
 
 
