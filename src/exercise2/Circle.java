@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Circle {
 
     public static void main(String[] args) {
-        Scanner inpu = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter radius: ");
+    
         double r = input.nextDouble();
         double c = 2 * Math.PI * r;
         double a = Math.PI * r * r; 
