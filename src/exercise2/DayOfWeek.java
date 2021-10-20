@@ -7,7 +7,7 @@ public class DayOfWeek {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Day of week:");
+        System.out.println("Day of week: ");
         int number = input.nextInt();
         
         if (number == 1) { 
