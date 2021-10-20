@@ -3,23 +3,22 @@ package exercise2;
 import java.util.Scanner;
 
 public class SumOfDigits {
-
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int number=input.nextInt();
 
-        System.out.print("Enter a number: ");
-        int number = input.nextInt();
 
-        int fiki = number % 10;
-        number = number /10;
-        int azis = number % 10;
-        number = number / 10;
-        int djamaikata = number % 10;
+        if ((number < 1000) && (number>=0)){
+        int fiki=number/100;
+        int rest = number - a*100;
+        int azis=rest/10;
+        int djamaikata=rest -b*10;
+           System.out.println("Sum of digits: " +(fiki+azis+djamaikata);
+        }
+        else {
+            System.out.println("Number isn't between 0 and 999.");
+        }
 
-        int sum = fiki + azis + djamaikata;
-
-        System.out.println("Sum of digits:" + sum);
-        
     }
-
 }

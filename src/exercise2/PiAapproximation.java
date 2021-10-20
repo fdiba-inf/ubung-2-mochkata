@@ -1,11 +1,11 @@
 package exercise2;
 
-public class PiAapproximation{                   
+public class PiApproximation {
+    public static void main(String[] args) {
+        double x=4.0*(1.0-1.0/3.0+1.0/5-1.0/7+1.0/11-1.0/13+1.0/17-1.0/19+1.0/23);
+        System.out.println("Pi: "+ x);
 
-public static void main(String[] args) {
-    double fiki = 4.0*(1.0 - 1.0/3.0 + 1.0/5.0 - 1.0/7.0 + 1.0/11.0 - 1.0/13.0 + 1.0/17.0 - 1.0/19.0 + 1.0/23.0);
-    System.out.println("Pi: " + fiki);
 
-    
+
     }
 }
