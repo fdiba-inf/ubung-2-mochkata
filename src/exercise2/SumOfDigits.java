@@ -10,11 +10,11 @@ public class SumOfDigits {
 
 
         if ((number < 1000) && (number>=0)){
-        int fiki=number/100;
+        int a=number/100;
         int rest = number - a*100;
-        int azis=rest/10;
-        int djamaikata=rest -b*10;
-           System.out.println("Sum of digits: " +(fiki+azis+djamaikata);
+        int b=rest/10;
+        int rest1=rest -b*10;
+           System.out.println("Sum of digits: " +(a+b+rest1));
         }
         else {
             System.out.println("Number isn't between 0 and 999.");
